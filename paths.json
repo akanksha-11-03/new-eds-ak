@@ -2,7 +2,8 @@
   "mappings": [
     "/content/new-eds-ak/:/",
     "/content/new-eds-ak/configuration:/.helix/config.json",
-    "/content/new-eds-ak/metadata:/metadata.json"
+    "/content/new-eds-ak/metadata:/metadata.json",
+    "/content/new-eds-ak/api/ak-api-demo:api/ak-api-demo.json"
   ],
   "includes": [
     "/content/new-eds-ak/"

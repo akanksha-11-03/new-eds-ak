@@ -205,18 +205,28 @@
     "id": "table",
     "fields": [
       {
-        "component": "text",
-        "valueType": "number",
-        "name": "columns",
+        "component": "richtext",
+        "name": "text",
         "value": "",
-        "label": "Columns"
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "spicalculator",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
       },
       {
         "component": "text",
-        "valueType": "number",
-        "name": "rows",
-        "value": "",
-        "label": "Rows"
+        "name": "linkText",
+        "label": "Text"
       }
     ]
   },

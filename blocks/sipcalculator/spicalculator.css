@@ -1,0 +1,33 @@
+.mainDiv{
+    /* margin-left: 0px;
+    margin-right: 500px; */
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 1.75rem;  */
+}
+.commonclass{
+    width: 33%;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px 14px;
+}
+.rate-div{
+    display: flex;
+        flex-direction: unset;
+        align-items: flex-start;
+}
+.years{
+    width: 100%;
+    padding: 5px;
+}
+.returnRate{
+    width: 50px;
+    border:0;
+}
+.displayestimateamt{
+    margin: 0;
+}
+.resulatinvestamut{
+    margin: 0;
+}

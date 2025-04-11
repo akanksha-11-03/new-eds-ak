@@ -1,9 +1,6 @@
-.mainDiv{
-    /* margin-left: 0px;
-    margin-right: 500px; */
+.sipcalculator form{
     display: flex;
-    justify-content: space-evenly;
-    /* gap: 1.75rem;  */
+    justify-content: space-evenly
 }
 .commonclass{
     width: 33%;
@@ -17,11 +14,11 @@
         flex-direction: unset;
         align-items: flex-start;
 }
-.years{
+#years{
     width: 100%;
     padding: 5px;
 }
-.returnRate{
+#returnRate{
     width: 50px;
     border:0;
 }

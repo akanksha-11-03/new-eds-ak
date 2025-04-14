@@ -1,22 +1,16 @@
 .sipcalculator form{
-    display: flex;
-    justify-content: space-evenly
-}
-.commonclass{
-    width: 33%;
-    /* display: flex; */
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 8px 14px;
-}
-.rate-div{
-    display: flex;
-        flex-direction: unset;
-        align-items: flex-start;
-}
-#years{
+    /* display: grid; */
     width: 100%;
-    padding: 5px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 52px;
+}
+
+#years{
+    width: 210px;
+    height: 34px;
 }
 #returnRate{
     width: 50px;
@@ -25,6 +19,18 @@
 .displayestimateamt{
     margin: 0;
 }
-.resulatinvestamut{
-    margin: 0;
+.envestedamt input{
+    pointer-events: none; /* Disables interaction */
+  border: 0;
+}
+.displayamt input{
+    pointer-events: none;
+    border: 0;
+}
+.monthlyamt span{
+    font-size: 10px;
+    color: red;
+}
+#form-newreturnbox{
+    border: 0;
 }

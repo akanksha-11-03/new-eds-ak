@@ -97,7 +97,7 @@ export default async function decorate(block) {
   //  var amountdis = parseFloat(document.getElementById("amount"));
   //  amountdis.addEventListener("change", calculateSIP)
 
-  amount.addEventListener("change", function () {
+  amount.addEventListener("input", function () {
     calculateSIP();
   });
   years.addEventListener("change", function () {
@@ -124,10 +124,22 @@ export default async function decorate(block) {
 function calculateSIP() {
   var amount = parseFloat(document.getElementById("amount").value);
   var years = parseInt(document.getElementById("years").value);
-  var returnRate = parseFloat(
-    document.getElementById("returnRate").value
-  );
-  
+  var returnRate = parseFloat(document.getElementById("returnRate").value);
+
+  if (!document.querySelector('.errormsg')) {
+    const spandiv = document.createElement("span");
+    document.querySelector(".monthlyamt").append(spandiv);
+    spandiv.classList.add("errormsg");
+    document.querySelector(".monthlyamt span").innerHTML =
+      "Amount must be between 500 and 500000.";
+  }
+  if(!document.getElementById("amount").value) return
+  if (amount < 500 || amount > 500000) {
+    document.querySelector(".errormsg").style.display = "block";
+    return;
+  } else {
+    document.querySelector(".errormsg").style.display = "none";
+  }
   // if (isNaN(amount) || isNaN(years) || isNaN(returnRate)) {
   //   document.getElementById("result").innerHTML = "Please enter valid values.";
   //   return;
@@ -144,4 +156,4 @@ function calculateSIP() {
   // var gainPercent = ((futureValue - invested) / invested) * 100;
   document.getElementById("resulatinvestamut").value = invested.toFixed();
   document.getElementById("displayestimateamt").value = futureValue.toFixed();
- }
+}

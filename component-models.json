@@ -236,7 +236,7 @@
     ]
   },
    {
-    "id": "footer",
+    "id": "footerhero",
     "fields": [
       {
         "component": "richtext",

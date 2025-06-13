@@ -19,7 +19,8 @@
       "sarch",
       "table",
       "sipcalculator",
-      "footerhero"
+      "footerhero",
+      "carousel-block"
     ]
   },
   {
@@ -41,6 +42,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "carousel-block",
+    "components": [
+      "carousel-item"
     ]
   }
 ]

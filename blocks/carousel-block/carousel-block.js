@@ -1,4 +1,4 @@
-import SwiperBlock from "../swiper/swiper.js"
+import SwiperBlock from "../carousel-block/swiper-bundle.min"
 export default function decorate(block) {
   Array.from(block.children).forEach((element, index) => {
     element.classList.add("inner-" + (index+1))

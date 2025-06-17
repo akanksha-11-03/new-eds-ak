@@ -1,4 +1,4 @@
-@import url("../swiper/swiper.css");
+@import url("../carousel-block/swiper-bundle.min.css");
 
 .hero-carousel-block-wrapper {
     position: relative;

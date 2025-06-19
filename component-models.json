@@ -236,18 +236,18 @@
     ]
   },
    {
-    "id": "footerhero",
+    "id": "footerheroItem",
     "fields": [
       {
-        "component": "richtext",
-        "name": "text",
+        "component": "reference",
+        "name": "col_1text",
         "value": "",
         "label": "Text1",
         "valueType": "string"
       },
       {
         "component": "richtext",
-        "name": "text",
+        "name": "col2_text",
         "value": "",
         "label": "Text2",
         "valueType": "string"

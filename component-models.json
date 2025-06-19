@@ -235,6 +235,22 @@
       }
     ]
   },
+  {
+    "id": "footerhero",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Select Class For Show/Hide",
+        "valueType": "string",
+        "options": [
+          { "name": "footerTop", "value": "footer-Top" },
+          { "name": "footerMiddel", "value": "footer-Middel" },
+           { "name": "footerlast", "value": "footer-last" }
+        ]
+      }
+    ]
+  },
    {
     "id": "footerheroItem",
     "fields": [

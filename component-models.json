@@ -239,7 +239,7 @@
     "id": "footerheroItem",
     "fields": [
       {
-        "component": "reference",
+        "component": "richtext",
         "name": "col_1text",
         "value": "",
         "label": "Text1",

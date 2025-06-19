@@ -1,7 +1,13 @@
 .footer-wrapper{
-    background-color: black;
+    background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
 }
 .hero-footer-logo{
-    margin-left: 16px;
-    padding-bottom: 40px;
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
 }

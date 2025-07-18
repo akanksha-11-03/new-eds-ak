@@ -244,14 +244,23 @@
         "label": "Select Class For Show/Hide",
         "valueType": "string",
         "options": [
-          { "name": "footerTop", "value": "footer-Top" },
-          { "name": "footerMiddel", "value": "footer-Middel" },
-           { "name": "footerlast", "value": "footer-last" }
+          {
+            "name": "footerTop",
+            "value": "footer-Top"
+          },
+          {
+            "name": "footerMiddel",
+            "value": "footer-Middel"
+          },
+          {
+            "name": "footerlast",
+            "value": "footer-last"
+          }
         ]
       }
     ]
   },
-   {
+  {
     "id": "footerheroItem",
     "fields": [
       {
@@ -275,14 +284,24 @@
         "label": "Alt",
         "value": ""
       }
-      
     ]
   },
   {
     "id": "tabs",
     "fields": [
       {
-         "component": "text",
+        "component": "text",
+        "valueType": "string",
+        "name": "classes",
+        "label": "tabs main"
+      }
+    ]
+  },
+  {
+    "id": "tabsitems",
+    "fields": [
+      {
+        "component": "text",
         "valueType": "string",
         "name": "title",
         "label": "Title"

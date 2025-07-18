@@ -45,6 +45,12 @@
     ]
   },
   {
+    "id": "tabs",
+    "components": [
+      "tabsitems"
+    ]
+  },
+  {
     "id": "footerhero",
     "components": [
       "footerheroItem"

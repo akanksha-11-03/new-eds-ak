@@ -78,7 +78,6 @@
         }
       ]
     },
-    
     {
       "title": "Blocks",
       "id": "blocks",
@@ -236,7 +235,7 @@
             }
           }
         },
-         {
+        {
           "title": "tabsitems",
           "id": "tabsitems",
           "plugins": {

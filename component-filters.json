@@ -16,12 +16,13 @@
       "cards",
       "columns",
       "fragment",
-      "sarch",
-      "table",
-      "sipcalculator",
-      "footerhero",
-      "tabs",
       "bannervedio"
+    ]
+  },
+  {
+    "id": "bannervedio",
+    "components": [
+      "banner-vedio-item"
     ]
   },
   {
@@ -43,18 +44,6 @@
       "image",
       "button",
       "title"
-    ]
-  },
-  {
-    "id": "tabs",
-    "components": [
-      "tabsitems"
-    ]
-  },
-  {
-    "id": "footerhero",
-    "components": [
-      "footerheroItem"
     ]
   }
 ]

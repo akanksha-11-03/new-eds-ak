@@ -2,29 +2,29 @@
   "definitions": [
     {
       "title": "Banner Vedio",
-      "id": "cards",
+      "id": "bannervedio",
       "plugins": {
         "xwalk": {
           "page": {
             "resourceType": "core/franklin/components/block/v1/block",
             "template": {
-              "name": "Cards",
-              "filter": "cards"
+              "name": "bannervedio",
+              "filter": "bannervedio"
             }
           }
         }
       }
     },
     {
-      "title": "Card",
-      "id": "card",
+      "title": "Banner Vedio Item",
+      "id": "banner-vedio-item",
       "plugins": {
         "xwalk": {
           "page": {
             "resourceType": "core/franklin/components/block/v1/block/item",
             "template": {
-              "name": "Card",
-              "model": "card"
+              "name": "banner-vedio-item",
+              "model": "banner-vedio-item"
             }
           }
         }
@@ -33,7 +33,7 @@
   ],
   "models": [
     {
-      "id": "card",
+      "id": "banner-vedio-item",
       "fields": [
         {
           "component": "reference",
@@ -54,9 +54,9 @@
   ],
   "filters": [
     {
-      "id": "cards",
+      "id": "bannervedio",
       "components": [
-        "card"
+        "banner-vedio-item"
       ]
     }
   ]

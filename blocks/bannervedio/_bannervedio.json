@@ -1,30 +1,30 @@
 {
   "definitions": [
-   {
+    {
       "title": "Banner Vedio",
-      "id": "bannervedio",
+      "id": "cards",
       "plugins": {
         "xwalk": {
           "page": {
             "resourceType": "core/franklin/components/block/v1/block",
             "template": {
-              "name": "Banner Vedio",
-              "filter": "bannervedio"
+              "name": "Cards",
+              "filter": "cards"
             }
           }
         }
       }
     },
     {
-      "title": "Banner Vedio Item",
-      "id": "banner-vedio-item",
+      "title": "Card",
+      "id": "card",
       "plugins": {
         "xwalk": {
           "page": {
             "resourceType": "core/franklin/components/block/v1/block/item",
             "template": {
-              "name": "Banner Vedio Item",
-              "model": "banner-vedio-item"
+              "name": "Card",
+              "model": "card"
             }
           }
         }
@@ -33,34 +33,30 @@
   ],
   "models": [
     {
-      "id": "banner-vedio-item",
+      "id": "card",
       "fields": [
         {
           "component": "reference",
+          "valueType": "string",
           "name": "image",
           "label": "Image",
           "multi": false
         },
         {
-          "component": "text",
-          "name": "imageAlt",
-          "label": "Alt Text"
-        },
-        {
-            "component": "richtext",
-            "name": "Contenttext",
-            "value": "",
-            "label": "Content Text",
-            "valueType": "string"
+          "component": "richtext",
+          "name": "text",
+          "value": "",
+          "label": "Text",
+          "valueType": "string"
         }
       ]
     }
   ],
   "filters": [
     {
-      "id": "bannervedio",
+      "id": "cards",
       "components": [
-        "banner-vedio-item"
+        "card"
       ]
     }
   ]

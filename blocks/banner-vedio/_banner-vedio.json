@@ -1,0 +1,67 @@
+{
+  "definitions": [
+   {
+      "title": "Banner Vedio",
+      "id": "banner-vedio",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Banner Vedio",
+              "filter": "banner-vedio"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Banner Vedio Item",
+      "id": "banner-vedio-item",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block/item",
+            "template": {
+              "name": "Banner Vedio Item",
+              "model": "banner-vedio-item"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "banner-vedio-item",
+      "fields": [
+        {
+          "component": "reference",
+          "name": "image",
+          "label": "Image",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "name": "imageAlt",
+          "label": "Alt Text"
+        },
+        {
+            "component": "richtext",
+            "name": "Contenttext",
+            "value": "",
+            "label": "Content Text",
+            "valueType": "string"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "banner-vedio",
+      "components": [
+        "banner-vedio-item"
+      ]
+    }
+  ]
+}

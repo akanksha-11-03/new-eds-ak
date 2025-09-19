@@ -134,14 +134,25 @@
         "label": "Style",
         "options": [
           {
-            "name": "Video banner",
-            "value": "video-banner"
-          },
-          {
-            "name": "Text Center",
-            "value": "text-center"
+            "name": "Highlight",
+            "value": "highlight"
           }
         ]
+      }
+    ]
+  },
+  {
+    "component": "multiselect",
+    "name": "style",
+    "label": "Style",
+    "options": [
+      {
+        "name": "Video banner",
+        "value": "video-banner"
+      },
+      {
+        "name": "Text Center",
+        "value": "text-center"
       }
     ]
   },

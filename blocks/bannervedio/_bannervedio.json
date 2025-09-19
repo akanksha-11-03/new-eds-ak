@@ -33,38 +33,53 @@
   ],
   "models": [
     {
-      "id": "banner-vedio-item",
-      "fields": [
+      "component": "multiselect",
+      "name": "style",
+      "label": "Style",
+      "options": [
         {
-          "component": "reference",
-          "valueType": "string",
-          "name": "image",
-          "label": "Image",
-          "multi": false
+          "name": "Video banner",
+          "value": "video-banner"
         },
-         {
+        {
+          "name": "Text Center",
+          "value": "text-center"
+        }
+    ]
+  },
+  {
+    "id": "banner-vedio-item",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
         "component": "text",
         "valueType": "string",
         "name": "imageAlt",
         "label": "Alt",
         "value": ""
       },
-        {
-          "component": "richtext",
-          "name": "context",
-          "value": "",
-          "label": "context-model",
-          "valueType": "string"
-        }
-      ]
-    }
-  ],
-  "filters": [
-    {
-      "id": "bannervedio",
-      "components": [
-        "banner-vedio-item"
-      ]
-    }
-  ]
+      {
+        "component": "richtext",
+        "name": "context",
+        "value": "",
+        "label": "context-model",
+        "valueType": "string"
+      }
+    ]
+  }
+],
+"filters": [
+  {
+    "id": "bannervedio",
+    "components": [
+      "banner-vedio-item"
+    ]
+  }
+]
 }

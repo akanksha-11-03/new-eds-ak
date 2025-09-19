@@ -134,8 +134,12 @@
         "label": "Style",
         "options": [
           {
-            "name": "Highlight",
-            "value": "highlight"
+            "name": "Video banner",
+            "value": "video-banner"
+          },
+          {
+            "name": "Text Center",
+            "value": "text-center"
           }
         ]
       }

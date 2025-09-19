@@ -134,8 +134,12 @@
         "label": "Style",
         "options": [
           {
-            "name": "Highlight",
-            "value": "highlight"
+            "name": "secfirst",
+            "value": "secfirst"
+          },
+          {
+            "name": "secsecond",
+            "value": "secsecond"
           }
         ]
       }

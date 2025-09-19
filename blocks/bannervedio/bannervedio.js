@@ -21,6 +21,7 @@ function createSwiper(block) {
 
 export default function decorate(block) {
   // video code
+  console.log(block[1])
   const link1 = block.querySelector(".button-container");
   embedblock(link1);
 

@@ -33,6 +33,9 @@
   ],
   "models": [
     {
+      "id": "bannervedio",
+      "fields":[
+        {
       "component": "multiselect",
       "name": "classes",
       "label": "Style",
@@ -46,7 +49,9 @@
           "value": "text-center"
         }
     ]
-  },
+  }
+      ]
+    },
   {
     "id": "banner-vedio-item",
     "fields": [

@@ -142,17 +142,22 @@
     ]
   },
   {
-    "component": "multiselect",
-    "name": "classes",
-    "label": "Style",
-    "options": [
+    "id": "bannervedio",
+    "fields": [
       {
-        "name": "Video banner",
-        "value": "video-banner"
-      },
-      {
-        "name": "Text Center",
-        "value": "text-center"
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Video banner",
+            "value": "video-banner"
+          },
+          {
+            "name": "Text Center",
+            "value": "text-center"
+          }
+        ]
       }
     ]
   },

@@ -61,9 +61,10 @@
 //       )
 //     );
 //   }
-import fgbvcbnhghn from "../form/form.js";
+import fgbvcbnhghn from '../form/form.js';
+
 export default function decorate(block) {
   const blockcontent = block.textContent.trim();
-  //console.log(blockcontent);
+  // console.log(blockcontent);
   fgbvcbnhghn(block, blockcontent);
 }

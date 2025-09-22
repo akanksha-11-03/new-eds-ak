@@ -159,7 +159,7 @@
   },
   {
     "id": "accordion-item",
-    "type": "text",
+    "type": "accordion/text",
     "fields": [
       {
         "component": "richtext",

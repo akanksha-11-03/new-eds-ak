@@ -11,7 +11,7 @@ width: 49px;
 }
 .swiper-slide{
     position: relative;
-    display: flex;
+    /* display: flex; */
 }
 .swiper-slide:nth-child(1) >div:nth-child(2){
     position: absolute;

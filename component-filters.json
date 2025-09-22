@@ -20,6 +20,12 @@
     ]
   },
   {
+    "id": "accordion",
+    "components": [
+      "accordion-item"
+    ]
+  },
+  {
     "id": "bannervedio",
     "components": [
       "banner-vedio-item"

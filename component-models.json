@@ -134,12 +134,43 @@
         "label": "Style",
         "options": [
           {
-            "name": "secfirst",
-            "value": "secfirst"
+            "name": "Highlight",
+            "value": "highlight"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "accordion",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Accordion Only",
+            "value": "accordiononly"
           },
           {
-            "name": "secsecond",
-            "value": "secsecond"
+            "id": "accordion-item",
+            "type": "accordion/text",
+            "fields": [
+              {
+                "component": "richtext",
+                "valueType": "string",
+                "name": "question",
+                "label": "Question"
+              },
+              {
+                "component": "richtext",
+                "valueType": "string",
+                "name": "answer",
+                "label": "Answer",
+                "raw": true
+              }
+            ]
           }
         ]
       }
